@@ -1,5 +1,7 @@
 # Coin MCP Server
 
+[![smithery badge](https://smithery.ai/badge/coin-api-mcp)](https://smithery.ai/server/coin-api-mcp)
+
 A Model Context Protocol server that provides access to CoinMarketCap's cryptocurrency data. This server enables AI-powered applications to retrieve cryptocurrency listings, quotes, and detailed information about various coins.
 
 ### Available Tools
@@ -26,6 +28,14 @@ A Model Context Protocol server that provides access to CoinMarketCap's cryptocu
     - `symbol` (string, optional): One or more comma-separated cryptocurrency symbols.
 
 ## Installation
+
+### Installing via Smithery
+
+To install Cryptocurrency Data for Claude Desktop automatically via [Smithery](https://smithery.ai/server/coin-api-mcp):
+
+```bash
+npx -y @smithery/cli install coin-api-mcp --client claude
+```
 
 ### Build the Server
 Clone this repository and build and install the program with your default Python interpreter (recommended).
